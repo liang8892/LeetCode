@@ -16,9 +16,11 @@ namespace Lib
             {
                 int pop = x % 10;
                 int y = x / 10;
+                int rev;
                 while (y != 0)
                 {
                     
+
                 }
                 if (pop == x)
                     return true;

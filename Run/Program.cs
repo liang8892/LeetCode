@@ -54,6 +54,8 @@ namespace Run
         {
             string result = _14_Longest_Common_Prefix.LongestCommonPrefix(new string[] { "asdgfds","asdasf","asdasd","asdfsdf","asfg"});
             Console.WriteLine("Result:\r\n" + result);
+
+            Console.ReadLine();
         }
     }
 }

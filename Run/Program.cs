@@ -13,7 +13,8 @@ namespace Run
         {
             //_7_ReverseInteger();
             //_9_PalindromeNumber();
-            _13_RomanToInteger();
+            //_13_RomanToInteger();
+            _14_LongestCommonPrefix();
         }
 
         private static void _7_ReverseInteger()
@@ -47,6 +48,12 @@ namespace Run
                 Console.WriteLine(s + " = " + y);
                 Console.ReadKey();
             }
+        }
+
+        private static void _14_LongestCommonPrefix()
+        {
+            string result = _14_Longest_Common_Prefix.LongestCommonPrefix(new string[] { "asdgfds","asdasf","asdasd","asdfsdf","asfg"});
+            Console.WriteLine("Result:\r\n" + result);
         }
     }
 }

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_13_Roman_to_Integer.cs" />
+    <Compile Include="_14_Longest_Common_Prefix.cs" />
     <Compile Include="_7_ Reverse_Integer.cs" />
     <Compile Include="_9_Palindrome_Number.cs" />
   </ItemGroup>

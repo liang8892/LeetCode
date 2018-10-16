@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_20_Valid_Parentheses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_13_Roman_to_Integer.cs" />
     <Compile Include="_14_Longest_Common_Prefix.cs" />

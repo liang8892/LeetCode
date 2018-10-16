@@ -15,7 +15,7 @@ namespace Run
             //_9_PalindromeNumber();
             //_13_RomanToInteger();
             //_14_LongestCommonPrefix();
-            _20_ValidParentheses();
+            _26();
         }
 
         private static void _7_ReverseInteger()
@@ -59,15 +59,14 @@ namespace Run
             Console.ReadLine();
         }
 
-        private static void _20_ValidParentheses()
+
+        private static void _26()
         {
-            while (true)
-            {
-                if (_20_Valid_Parentheses.IsValid("({[]})"))
-                    Console.WriteLine("Success!");
-                else
-                    Console.WriteLine("Faild!");
-            }
+            _26_remove_duplicates_from_sorted_array _26 = new _26_remove_duplicates_from_sorted_array();
+            int newLenth = _26.RemoveDuplicates(new int[] {1, 2, 2, 3, 3, 3, 5, 6, 6, 8, 8});
+            Console.WriteLine($"New Length:{newLenth}\r\n");
+
+            Console.ReadLine();
         }
     }
 }

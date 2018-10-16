@@ -14,7 +14,8 @@ namespace Run
             //_7_ReverseInteger();
             //_9_PalindromeNumber();
             //_13_RomanToInteger();
-            _14_LongestCommonPrefix();
+            //_14_LongestCommonPrefix();
+            _20_ValidParentheses();
         }
 
         private static void _7_ReverseInteger()
@@ -56,6 +57,17 @@ namespace Run
             Console.WriteLine("Result:\r\n" + result);
 
             Console.ReadLine();
+        }
+
+        private static void _20_ValidParentheses()
+        {
+            while (true)
+            {
+                if (_20_Valid_Parentheses.IsValid("({[]})"))
+                    Console.WriteLine("Success!");
+                else
+                    Console.WriteLine("Faild!");
+            }
         }
     }
 }
